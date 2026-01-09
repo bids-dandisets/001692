@@ -11,16 +11,58 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Vu, Mai-Anh (2026) An anatomical hotspot for striatal dopamine-acetylcholine
+citation: Vu, Mai-Anh; Bouabid, Safa (2026) An anatomical hotspot for striatal dopamine-acetylcholine
   interactions during reward and movement (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001692/draft
 contributor:
 - affiliation: []
   email: maianh.t.vu@gmail.com
+  identifier: 0000-0003-4766-1159
   includeInCitation: true
   name: Vu, Mai-Anh
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  - dcite:FundingAcquisition
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:ProjectMember
+  - dcite:Researcher
+  - dcite:Software
+  - dcite:Visualization
+  - dcite:Conceptualization
+  - dcite:Author
+  schemaKey: Person
+- email: sbouabid@bu.edu
+  identifier: 0000-0003-4184-3795
+  includeInCitation: true
+  name: Bouabid, Safa
+  roleName:
+  - dcite:ContactPerson
+  - dcite:Conceptualization
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:ProjectMember
+  - dcite:Researcher
+  - dcite:Visualization
+  schemaKey: Person
+- email: mwhowe@bu.edu
+  identifier: 0000-0002-6865-5084
+  name: Howe, Mark
+  roleName:
+  - dcite:Supervision
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:FundingAcquisition
+  - dcite:Investigation
+  - dcite:Researcher
+  - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2026-01-09T17:13:03.135765+00:00'
 description: 'Dopamine (DA) and acetylcholine (ACh) are key neuromodulators that regulate
@@ -58,8 +100,7 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001692/versions/draft/assets/
 name: An anatomical hotspot for striatal dopamine-acetylcholine interactions during
   reward and movement
-relatedResource:
-- {}
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
