@@ -3,7 +3,16 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002435
+  name: striatum
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CHEBI_18243
+  name: dopamine
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CHEBI_15355
+  name: acetylcholine
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -15,7 +24,10 @@ citation: Vu, Mai-Anh; Bouabid, Safa (2026) An anatomical hotspot for striatal d
   interactions during reward and movement (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001692/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/05qwgg493
+    name: Boston University
+    schemaKey: Affiliation
   email: maianh.t.vu@gmail.com
   identifier: 0000-0003-4766-1159
   includeInCitation: true
@@ -35,7 +47,11 @@ contributor:
   - dcite:Conceptualization
   - dcite:Author
   schemaKey: Person
-- email: sbouabid@bu.edu
+- affiliation:
+  - identifier: https://ror.org/05qwgg493
+    name: Boston University
+    schemaKey: Affiliation
+  email: sbouabid@bu.edu
   identifier: 0000-0003-4184-3795
   includeInCitation: true
   name: Bouabid, Safa
@@ -51,7 +67,21 @@ contributor:
   - dcite:Researcher
   - dcite:Visualization
   schemaKey: Person
-- email: mwhowe@bu.edu
+- affiliation:
+  - identifier: https://ror.org/05qwgg493
+    name: Boston University
+    schemaKey: Affiliation
+  awardNumber: ''
+  identifier: 0009-0003-0225-3677
+  name: Noggle, Christian
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05qwgg493
+    name: Boston University
+    schemaKey: Affiliation
+  email: mwhowe@bu.edu
   identifier: 0000-0002-6865-5084
   name: Howe, Mark
   roleName:
@@ -100,7 +130,33 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001692/versions/draft/assets/
 name: An anatomical hotspot for striatal dopamine-acetylcholine interactions during
   reward and movement
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.64898/2026.01.20.700614
+  name: An anatomical hotspot for striatal dopamine-acetylcholine interactions during
+    reward and movement
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.64898/2026.01.20.700614v1
+- name: howe-lab-to-nwb (v1)
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/howe-lab-to-nwb
+- name: howe-lab-to-nwb (v2)
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/HoweLab/howe-lab-to-nwb
+- name: Howe Lab GitHub
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/HoweLab
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
