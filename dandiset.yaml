@@ -20,9 +20,10 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Vu, Mai-Anh; Bouabid, Safa (2026) An anatomical hotspot for striatal dopamine-acetylcholine
-  interactions during reward and movement (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001692/draft
+citation: Vu, Mai-Anh; Bouabid, Safa; Noggle, Christian; Vietti-Michelina, Stefania;
+  Brimblecombe, Katherine; Platt, Nicola; Zhang, Liangzhu; Joshi, Anil; Cragg, Stephanie;
+  Howe, Mark (2026) An anatomical hotspot for striatal dopamine-acetylcholine interactions
+  during reward and movement (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001692/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/05qwgg493
@@ -73,9 +74,45 @@ contributor:
     schemaKey: Affiliation
   awardNumber: ''
   identifier: 0009-0003-0225-3677
+  includeInCitation: true
   name: Noggle, Christian
   roleName:
   - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0000-0003-0166-4055
+  includeInCitation: true
+  name: Vietti-Michelina, Stefania
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0003-0809-7292
+  includeInCitation: true
+  name: Brimblecombe, Katherine
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Platt, Nicola
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0009-0005-2862-4928
+  includeInCitation: true
+  name: Zhang, Liangzhu
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-8443-8354
+  includeInCitation: true
+  name: Joshi, Anil
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-9677-2256
+  includeInCitation: true
+  name: Cragg, Stephanie
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/05qwgg493
@@ -83,6 +120,7 @@ contributor:
     schemaKey: Affiliation
   email: mwhowe@bu.edu
   identifier: 0000-0002-6865-5084
+  includeInCitation: true
   name: Howe, Mark
   roleName:
   - dcite:Supervision
@@ -94,6 +132,51 @@ contributor:
   - dcite:Researcher
   - dcite:ProjectLeader
   schemaKey: Person
+- awardNumber: ASAP-020370
+  identifier: https://ror.org/03arq3225
+  name: Michael J. Fox Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ASAP-025192
+  identifier: https://ror.org/03arq3225
+  name: Michael J. Fox Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: PF-SF-JFA-836662
+  identifier: https://ror.org/05mx85j86
+  name: Parkinson's Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01 MH125835
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: F32MH120894
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: Whitehall Foundation Fellowship
+  name: Whitehall Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: Klingenstein-Simons Fellowship
+  name: Klingenstein Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: Klingenstein-Simons Fellowship
+  name: Simons Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-01-09T17:13:03.135765+00:00'
 description: 'Dopamine (DA) and acetylcholine (ACh) are key neuromodulators that regulate
   striatal circuits underlying movement and reinforcement learning. Evidence suggests
@@ -139,13 +222,13 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.64898/2026.01.20.700614v1
-- name: howe-lab-to-nwb (v1)
+- name: howe-lab-to-nwb (2024)
   relation: dcite:IsCompiledBy
   repository: GitHub
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/howe-lab-to-nwb
-- name: howe-lab-to-nwb (v2)
+- name: howe-lab-to-nwb (2026)
   relation: dcite:IsCompiledBy
   repository: GitHub
   resourceType: dcite:Software
