@@ -25,26 +25,26 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: one-photon microscopy technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 207905278114
-  numberOfFiles: 15
-  numberOfSubjects: 1
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 744394895623
+  numberOfFiles: 48
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - OnePhotonSeries
   - OpticalChannel
-  - PlaneSegmentation
   - ImagingPlane
   - ProcessingModule
+  - OnePhotonSeries
+  - PlaneSegmentation
 citation: Vu, Mai-Anh; Bouabid, Safa; Noggle, Christian; Vietti-Michelina, Stefania;
   Brimblecombe, Katherine; Platt, Nicola; Zhang, Liangzhu; Joshi, Anil; Cragg, Stephanie;
   Howe, Mark (2026) An anatomical hotspot for striatal dopamine-acetylcholine interactions
