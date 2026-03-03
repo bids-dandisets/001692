@@ -31,8 +31,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4530011445600
-  numberOfFiles: 336
+  numberOfBytes: 4545686530577
+  numberOfFiles: 339
   numberOfSubjects: 17
   schemaKey: AssetsSummary
   species:
@@ -45,10 +45,11 @@ assetsSummary:
   - ProcessingModule
   - OnePhotonSeries
   - PlaneSegmentation
-citation: Vu, Mai-Anh; Bouabid, Safa; Noggle, Christian; Vietti-Michelina, Stefania;
+citation: 'Vu, Mai-Anh; Bouabid, Safa; Noggle, Christian; Vietti-Michelina, Stefania;
   Brimblecombe, Katherine; Platt, Nicola; Zhang, Liangzhu; Joshi, Anil; Cragg, Stephanie;
   Howe, Mark (2026) An anatomical hotspot for striatal dopamine-acetylcholine interactions
-  during reward and movement (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001692/draft
+  during reward and movement: multi-fiber photometry data (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/001692/draft'
 contributor:
 - affiliation:
   - identifier: https://ror.org/05qwgg493
@@ -236,8 +237,10 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001692/versions/draft/assets/
-name: An anatomical hotspot for striatal dopamine-acetylcholine interactions during
-  reward and movement
+name: 'An anatomical hotspot for striatal dopamine-acetylcholine interactions during
+  reward and movement: multi-fiber photometry data'
+protocol:
+- https://doi.org/10.64898/2026.01.20.700614
 relatedResource:
 - identifier: https://doi.org/10.64898/2026.01.20.700614
   name: An anatomical hotspot for striatal dopamine-acetylcholine interactions during
