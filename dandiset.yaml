@@ -48,8 +48,8 @@ assetsSummary:
 citation: 'Vu, Mai-Anh; Bouabid, Safa; Noggle, Christian; Vietti-Michelina, Stefania;
   Brimblecombe, Katherine; Platt, Nicola; Zhang, Liangzhu; Joshi, Anil; Cragg, Stephanie;
   Howe, Mark (2026) An anatomical hotspot for striatal dopamine-acetylcholine interactions
-  during reward and movement: multi-fiber photometry data (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/001692/draft'
+  during reward and movement: multi-fiber photometry data (Version 0.260303.1724)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001692/0.260303.1724'
 contributor:
 - affiliation:
   - identifier: https://ror.org/05qwgg493
@@ -204,6 +204,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-01-09T17:13:03.135765+00:00'
+datePublished: '2026-03-03T17:24:33.467242+00:00'
 description: 'Dopamine (DA) and acetylcholine (ACh) are key neuromodulators that regulate
   striatal circuits underlying movement and reinforcement learning. Evidence suggests
   that DA and ACh systems interact, but where and how interactions are expressed across
@@ -222,8 +223,9 @@ description: 'Dopamine (DA) and acetylcholine (ACh) are key neuromodulators that
   These findings demonstrate that DA-ACh interactions during behavior are spatially
   organized, rather than uniformly conserved, and shape behaviorally relevant dynamics
   to regulate region-specific functions in learning and movement control.  '
+doi: 10.48324/dandi.001692/0.260303.1724
 ethicsApproval: []
-id: DANDI:001692/draft
+id: DANDI:001692/0.260303.1724
 identifier: DANDI:001692
 keywords:
 - striatum
@@ -236,11 +238,23 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001692/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001692/0.260303.1724/assets.yaml
 name: 'An anatomical hotspot for striatal dopamine-acetylcholine interactions during
   reward and movement: multi-fiber photometry data'
 protocol:
 - https://doi.org/10.64898/2026.01.20.700614
+publishedBy:
+  endDate: '2026-03-03T17:24:33.467242+00:00'
+  id: urn:uuid:93103678-baa5-4946-8c5f-ad23ad3a88b5
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-03-03T17:24:33.467242+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:1f696d24-2f57-4a52-866b-0812f1bf1aad
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.64898/2026.01.20.700614
   name: An anatomical hotspot for striatal dopamine-acetylcholine interactions during
@@ -271,6 +285,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001692/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001692/0.260303.1724
+version: 0.260303.1724
 wasGeneratedBy: []
