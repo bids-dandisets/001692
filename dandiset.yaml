@@ -204,9 +204,11 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-01-09T17:13:03.135765+00:00'
-description: 'Dopamine (DA) and acetylcholine (ACh) are key neuromodulators that regulate
-  striatal circuits underlying movement and reinforcement learning. Evidence suggests
-  that DA and ACh systems interact, but where and how interactions are expressed across
+description: 'Multi-fiber photometry data in Bouabid, Vu, et al (2026) "An anatomical
+  hotspot for striatal dopamine-acetylcholine interactions during reward and movement":
+  Dopamine (DA) and acetylcholine (ACh) are key neuromodulators that regulate striatal
+  circuits underlying movement and reinforcement learning. Evidence suggests that
+  DA and ACh systems interact, but where and how interactions are expressed across
   striatal regions in behaviorally relevant release dynamics remains unknown. We applied
   micro-fiber arrays to simultaneously measure striatum-wide DA and ACh in behaving
   mice, revealing an anatomical organization in which DA-ACh anti-correlations were
@@ -262,6 +264,11 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/HoweLab/howe-lab-to-nwb
+- name: BouabidVu2026
+  relation: dcite:IsSupplementedBy
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/HoweLab/BouabidVu2026
 - name: Howe Lab GitHub
   relation: dcite:IsSupplementedBy
   repository: GitHub
